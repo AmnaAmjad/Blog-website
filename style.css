@@ -1,0 +1,559 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.contain
+{
+
+     margin-top: -1.7%;
+     padding-bottom: 5%;
+     padding-right: 30px;
+     padding-left: 30px;
+     padding-top: 5%;
+     height: 600px;
+
+}
+.container1
+{  
+    background-color: aquamarine;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(./images/img1.jpg) ;
+    background-position: center center;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 500px;
+}
+.head
+{
+   
+    padding-top: 10px;
+    margin:30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height:90px ;
+}
+.head picture img
+{
+    
+    margin-left: 5%;
+    float: left;
+    height: 80px;
+    width: 50px;
+}
+.head i
+{
+    color: white;
+    margin-left: 80%;
+    
+}
+.head i:hover
+{
+    cursor: pointer;
+}
+.sec
+{
+    color: rgb(234, 231, 236);
+    text-align: center;
+}
+.sec h1
+{
+    
+    font-size: 70px;
+    opacity: 0.5;
+}
+.sec p
+{
+    opacity: 0.6;
+    padding-top: 15px;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.button1
+{
+    border-radius: 30px;
+    border: 2px solid  rgb(234, 231, 236);
+    color: rgb(236, 231, 231);
+    background: rgba(236, 231, 231,0.1) ;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    margin-top:20px ;
+    margin-left: 45%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.button1 div i
+{
+   
+   float: right;
+   margin-right: 30px;
+   margin-top: -22px;
+   margin-left: -5px;
+}
+.button1:hover
+{
+    border-top: dotted;
+    border-bottom: dotted;
+    border-left:none ;
+    border-right:none ;
+    border-radius: 0;
+    background: none;
+}
+.container2
+{
+    background-color: rgb(245, 234, 234);
+    
+}
+
+.container2 h1
+{
+    
+    padding: 50px;
+    
+}
+.container2 p
+{
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color:black;
+    margin-top: -10px;
+}
+.c2d1
+{
+    color: black;
+    display: table;
+   margin-right: auto;
+   margin-left: auto;
+   text-align:center;
+}
+
+.row
+{
+    margin: 10%;
+    width:80%;
+    height: auto;
+    background-color: white;
+    
+}
+.c2d2
+{
+    
+    width:20%;
+    margin: 20px;
+    margin-bottom: 20px;
+   
+}
+.c2d2 picture img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: -40px;
+}
+.c2d3
+{
+    
+    width:60%;
+    margin-left:30%;
+    margin-top: -24%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.c2d3 h3
+{
+    text-align: left;
+    margin: 10px;
+    font-size: 28px;
+}
+.c2d3 p
+{
+    font-size: 18px;
+    color:black;
+    text-align: left;
+    margin: 10px;
+}
+.cbutton
+{
+
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+}
+.buttonactive
+{
+    border: none;
+    background-color: rgb(182, 19, 60);
+    color: rgb(234, 231, 236);
+}
+.buttonactive:hover
+{
+    color: rgb(182, 19, 60);
+    background-color: rgb(234, 231, 236);
+}
+.button
+{
+    border: 2px solid rgb(234, 231, 236);
+    background-color: white;
+    color: rgb(179, 178, 180);
+}
+.button:hover
+{
+    color: white;
+    background-color: rgb(179, 178, 180);
+}
+.container3
+{
+    background-color: rgb(182, 19, 60);
+    margin-top: -1.7%;
+    height: 482px;
+     padding-left: 10%;
+     padding-right: 10%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:none;
+  }
+  
+
+  .grid-container > div {
+    
+    border: 1px solid black;
+    padding: 80px;
+    height:auto; 
+    text-align: center;
+    
+    
+  }
+  .color > div:nth-child(even) 
+  {
+    background-color: blueviolet;
+    font-size: 15px;
+    
+  }
+  
+  .color > div:nth-child(odd) 
+  {
+    background-color:white;
+    font-size: 18px;
+   
+  }
+  .color > div:nth-child(odd):hover
+  {
+    background-color:rgb(182, 19, 60);
+  }
+  .back >div:nth-child(odd)
+  {
+    background-color: blueviolet;
+    font-size: 15px;
+    
+  }
+  .back > div:nth-child(even) 
+  {
+    background-color: white;
+    font-size: 18px;
+   
+  }
+  .back > div:nth-child(even):hover
+  {
+    background-color:rgb(182, 19, 60);
+  }
+
+  .container4
+{
+    background-color: white;
+    
+}
+.c4d1
+{
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+.c4d1 h1
+{
+    margin: 50px;
+    
+}
+.c4d1 p
+{
+    font-size: 18px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.c4d2
+{
+    
+    margin:5%;
+   
+    width: 40%;
+}
+.c4d2 div
+{
+    
+    width: 40%;
+    height: 270px;
+    
+    
+}
+.c4d2 div img
+{
+    height: 100%;
+    width: 100%;
+}
+.mov1
+{
+    margin-left: 50px;
+}
+.mov
+{
+    margin-left:55% ;
+    margin-top: -270px;
+}
+.c4d3
+{
+   
+    margin-left: 45%;
+    margin-top: -334px;
+    width: 45%;
+    height: 270px;
+}
+
+.c4d3 h3
+{
+    text-align: left;
+    margin-top: 20px;
+    margin: 10px;
+    font-size: 28px;
+    
+}
+.c4d3 p
+{
+    font-size: 18px;
+    color:black;
+    text-align: left;
+    margin: 10px;
+   
+}
+.container5
+{
+    background-color: skyblue;
+   
+}
+.c5d1
+{
+    width: 70%;
+    margin-left:15% ;
+    margin-right: 15%;
+    
+    margin-top: 20px;
+    height: 270px;
+
+}
+.c5d1 div picture img
+{
+    height: 270px;
+    width: 70%;
+}
+.c5d2
+{
+    background-color: white;
+    margin-left: 70%;
+    width:30% ;
+    height: 270px;
+    margin-top: -274px;
+    
+}
+.c5d3 
+{
+    
+    text-align: left;
+    color:black;
+    padding: 10px;
+} 
+.c5d3 h3
+{
+    font-size: 28px;
+    padding: 10px;
+}
+.c5d3 p
+{
+    font-size: 15px;  
+    padding: 10px;
+}
+/* .container6
+{
+
+} */
+.input
+{
+    
+    border: 2px solid rgb(234, 231, 236);
+    background-color: white;
+    color: rgb(179, 178, 180);
+    text-align: left;
+    
+}
+.input1
+{
+    height:35px ;
+    width:40% ;
+    margin: 40px;
+    padding: 10px;
+}
+.input2
+{
+    margin:40px ;
+    margin-top: 10px;
+    height:100px ;
+    width:90% ;
+    padding: 10px;
+    padding-top: 0px;
+}
+.input:hover
+{
+    border: 2px solid black;
+   border-radius: 5px;
+}
+.c6d1
+{
+    
+    height:auto ;
+    width:90%;
+    
+    margin:auto;  
+    
+    
+}
+.c6d1 form div button
+{
+    float: right;
+    margin-right: 45px;
+    width: 250px;
+    
+}
+.c6d1 form div button div i
+{
+    float: right;
+   margin-right: 30px;
+   margin-top: -22px;
+   margin-left: -5px;
+   
+}
+.container7
+{
+    height: 300px;
+    background-image: linear-gradient(to right,#990000 ,#ff531a);
+}
+.container7 div h1
+{
+    font-size: 35px;
+    color: white;
+    opacity: 1;
+}
+.input3
+{
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-left-color:black ;
+    border-top-color: black;
+    border-bottom-color: gray;
+    border-right-color: gray;
+}
+.container8
+{
+    background-color:gray;
+    height: 400px;
+    padding-bottom: 2%;
+}
+
+.grid-container2
+{
+    display: grid;
+     grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+    padding: 10px;
+    height: 200px;
+    width: 90%;
+    margin-left: 40px;
+    margin-right:40px;
+    color: white;
+}
+.grid-container2 > div
+{
+    
+    border: none;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    
+}
+.grid-container3
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    
+    
+}
+.grid-container3 div
+{
+    
+    border: none;
+  
+}
+.grid-container3  div img
+{
+    height: 50px;
+    width: 50px;
+}
+
+.list
+{
+    list-style-type: none;
+    color: white;
+}
+.end
+{
+
+    height: auto;
+    margin-top: 6%;
+}
+.c8d2
+{   height: 30px;
+    width: 60%;
+    
+    padding:10px;
+}
+.c8d3{
+    
+    height: auto;
+    width: 150px;
+    margin-left: 88%;
+    margin-top: -43px;
+   
+}
+.end div i
+{
+    font-size: 26px;
+    color: indigo;
+    margin:10px;
+}
